@@ -64,9 +64,9 @@ REFERENCES "employees" ("emp_no");
 ALTER TABLE "titles" ADD CONSTRAINT "fk_titles_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
 
--- Import Data from CSV
+-- Import Data from CSV's
 
--- Add Primary Keys to table that did not have Primary Keys
+-- Add Primary Keys to tables that did not have Primary Keys
 
 ALTER TABLE dept_emp ADD COLUMN dept_emp_no SERIAL PRIMARY KEY;
 
