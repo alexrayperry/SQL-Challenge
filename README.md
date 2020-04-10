@@ -2,9 +2,13 @@
 
 ## Employee Database: A Mystery in Two Parts
 
-* Objective: Using multiple data analysis tools, query a database of employees from a period of 1980s - 1990s that are six CSV files.
+* Objective: Using multiple data analysis tools to query a database of employees from a period of 1980s - 1990s that are six CSV files.
 
 * Tools: PostgresSQL, Python, Pandas, SQLalchemy ORM, Matplotlib.
+
+## Entity Relationship Diagram (ERD)
+
+![ERD](images/ERD.png)
 
 
 ## Part I - Queries in SQL
@@ -66,7 +70,7 @@
 
 
 
-## Part II - Queries in SQL
+## Part II - Import the SQL database into Pandas and perform queries using SQLalchemy
 
 * Create a histogram to visualize the most common salary ranges for employees.
 
